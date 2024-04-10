@@ -11,7 +11,7 @@
     font-variation-settings:"wdth" 100;
 }
 
-body {
+div.container {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -176,7 +176,7 @@ main > section{
     font-weight: 300;
 }
 
-body > footer{/* ! only the footer of the page (exclude the one in main) */
+body > div > footer{ /* ! only the footer of the page (exclude the one in main) */
     display: flex;
     flex-direction: column;
     align-items: center;
