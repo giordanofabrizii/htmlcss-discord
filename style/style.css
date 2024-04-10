@@ -115,7 +115,7 @@ a:hover{
     background-color: #23272a;;
 }
 
-main > section{
+main section.excluded-wave{
     padding: 6rem 0;
     display: flex;
     justify-content: center;
@@ -124,6 +124,14 @@ main > section{
 
 .text-section{
     width: 21.8%;
+}
+
+svg {
+    background-color: white;
+}
+
+svg.rotate{
+    transform: rotate(180deg);
 }
 
 .text-section  h1, .footer-main h1{
@@ -147,7 +155,7 @@ main > section{
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    padding: 6rem 0;
+    padding: 6rem 0 0 0;
 }
 
 .footer-main p{
@@ -180,6 +188,16 @@ body > div > footer{ /* ! only the footer of the page (exclude the one in main) 
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+section.footer-text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-main a{
+    margin-bottom: 4rem;
 }
 
 #footer-content { 
