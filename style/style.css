@@ -242,6 +242,15 @@ footer li{
     width: 20%;
 }
 
+.language-selector{
+    margin: 1rem 0;
+}
+
+.social-icons{
+    width: 6rem;
+    justify-content: space-between;
+}
+
 .links{
     display: flex;
     justify-content: space-around;
