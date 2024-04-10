@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    /* font settings */
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+div.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #625edb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 10rem;
+}
+
+.limited-width{
+    max-width: 120rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.horizontal-alignment{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul.horizontal-alignment a{
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.rounded {
+    padding: 0.7rem 1.2rem;
+    border-radius: 5rem;
+    border: none;
+}
+
+.white-color {
+    color: white;
+}
