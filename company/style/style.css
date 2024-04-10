@@ -11,6 +11,10 @@
     font-variation-settings:"wdth" 100;
 }
 
+:root {
+    --discord: #5865f2;
+}
+
 div.container{
     display: flex;
     flex-direction: column;
@@ -18,26 +22,34 @@ div.container{
     margin: 0 auto;
 }
 
-header {
-    background-color: #625edb;
+header, header>div {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 1rem 10rem;
+    padding: 1rem 0;
 }
 
 .limited-width{
-    max-width: 120rem;
+    width: 120rem;
+}
+
+.ultra-limited{
+    padding: 0 24.5rem;
+    margin: 0 auto;
 }
 
 ul{
     list-style-type: none;
 }
 
+.discord-back {
+    background-color: var(--discord);
+}
+
 .horizontal-alignment{
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
 }
 
 ul.horizontal-alignment a{
@@ -54,3 +66,23 @@ ul.horizontal-alignment a{
 .white-color {
     color: white;
 }
+
+main > div:first-child > section {
+    justify-content: space-between;
+}
+
+main > div > section { /* ? every foundamental section in the main */
+    padding: 3rem 0;
+}
+
+main > div > section > section { /* ! text section in header*/
+    width: 30%;
+}
+
+main > div > section > section > h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 3rem 0 1rem 0;
+    line-height: 2.8rem;
+}
+
