@@ -9,6 +9,8 @@
     font-weight: 600;
     font-style: normal;
     font-variation-settings:"wdth" 100;
+
+    color: #23272a
 }
 
 :root {
@@ -35,7 +37,8 @@ header, header>div {
 }
 
 .ultra-limited{
-    padding: 0 24.5rem;
+    padding-right: 24.5rem;
+    padding-left: 24.5rem;
     margin: 0 auto;
 }
 
@@ -45,6 +48,10 @@ ul{
 
 .discord-back {
     background-color: var(--discord);
+}
+
+.discord-color  {
+    color: var(--discord);
 }
 
 .horizontal-alignment{
@@ -86,3 +93,67 @@ main > div > section > section > h1 {
     line-height: 2.8rem;
 }
 
+.white-back {
+    background-color: white;
+}
+
+main > section:first-of-type > h2 { /* ? aggiunge padding solo alla prima section con sfondo bianco*/
+    padding-top: 3rem;
+}
+
+main > section {
+    padding: 2rem 0; 
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-weight: 900;
+}
+
+p {
+    font-weight: 200;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    padding: 2rem 0;
+}
+
+img {
+    margin: 0 1.5rem;
+}
+
+.gray-back {
+    background-color: #f9f9f9;
+}
+
+.our-parameters{
+    justify-content: space-between;
+}
+
+.our-parameters p{
+    padding-top: 0.5rem;
+}
+
+.dark-gray-back{
+    background-color: #23272a;
+}
+
+.opportunities {
+    padding: 1.5rem 6rem;
+    border-radius: 2rem;
+}
+
+.opportunities p{
+    padding: 0.3rem;
+}
+
+.opportunities .rounded {
+    margin-top: 0.8rem;
+    font-size: 1.2rem;
+    padding: 0.8rem 1.4rem;
+}
